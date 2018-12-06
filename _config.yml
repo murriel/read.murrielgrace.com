@@ -30,7 +30,6 @@ description:           >
 # A shorter description for the sidebar.
 tagline:               >
   "Writing the wrongs, and reading the writes."
-  Open `_config.yml` to edit this text.
 
 # A list of keywords for your blog
 keywords:              []
@@ -49,8 +48,7 @@ author:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
+  CC BY 2.0 2018. All rights reserved.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -287,11 +285,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+ social:
+   name:                murriel grace
+   links:
+     - https://twitter.com/xmurriel
+     - https://github.com/murriel
 
 
 # Other Plugins
