@@ -284,9 +284,9 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
- social:
-   name:                murriel grace
-   links:
+social:
+  name: murriel grace
+  links:
      - https://twitter.com/xmurriel
      - https://github.com/murriel
 
