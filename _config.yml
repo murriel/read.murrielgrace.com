@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url: http://read.murrielgrace.com
+url: https://read.murrielgrace.com
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -24,7 +24,7 @@ title:                 Hello, Reader
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Just a friendly neighborhood blog"
+  "Just a friendly neighborhood web log"
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -47,8 +47,7 @@ author:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  CC BY 2.0 2018. All rights reserved.
-
+  CC BY 2.0 2019. All rights reserved.
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
 # legal:
