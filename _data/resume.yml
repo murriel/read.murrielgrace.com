@@ -2,44 +2,36 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
+  name: "Murriel Grace McCabe"
+  label: "DevOps Engineer"
   picture: "/assets/icons/icon.png"
   email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  phone: ""
+  website: "https://www.murrielgrace.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
     Open `_data/resume.yml` to edit this text.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
+    address: ""
+    postalCode: ""
+    city: ""
+    countryCode: ""
     region: "California"
   profiles:
     - network: "Twitter"
-      username: "RHendricksCEO"
+      username: "xmurriel"
       url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
+      username: "Murriel Perez"
       url: ""
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "JCI"
+    position: "Senior DevOps Engineer"
+    website: "https://www.jci.com"
+    startDate: "2018-09-01"
     endDate: ""
     summary: >
       Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
+      consistently fielded  high Weisman Scores™ that are not merely competitive,
       but approach the theoretical limit of lossless compression.
     highlights:
       - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"

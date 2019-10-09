@@ -206,6 +206,8 @@ hydejack:
 # Collections
 # ========================================================================================
 
+collections_dir: c
+
 collections:
   featured_categories:
     permalink:         /:name/
