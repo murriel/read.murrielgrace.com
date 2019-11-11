@@ -114,6 +114,31 @@ defaults:
     values:
       seo:
         type:          WebPage
+  - scope:
+      path: projects
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: talks
+    values:
+      menu: true
+      order: 2
+  - scope:
+      path: publications
+    values:
+      menu: true
+      order: 3
+  - scope:
+      path: lists
+    values:
+      menu: true
+      order: 4
+  - scope:
+      path: posts
+    values:
+      menu: true
+      order: 5
 
 
 # 3rd Party Integrations
@@ -217,10 +242,21 @@ collections:
     permalink:         /tag-:name/
     output:            true
 
+  lists:
+    permalink:         /lists/:path/
+    output:            true
+
   projects:
     permalink:         /projects/:path/
     output:            true
 
+  talks:
+    permalink:         /talks/:path/
+    output:            true
+
+  publications:
+    permalink:         /publications/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ========================================================================================

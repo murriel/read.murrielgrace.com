@@ -1,0 +1,41 @@
+- scope:
+    path: about.md
+  values:
+    menu: true
+    order: 1
+- scope:
+    path: projects
+  values:
+    menu: true
+    order: 2
+- scope:
+    path: talks
+  values:
+    menu: true
+    order: 3
+- scope:
+    path: writing
+  values:
+    menu: true
+    order: 4
+- scope:
+    path: lists
+  values:
+    menu: true
+    order: 5
+
+
+    notes only here.
+    tags:
+    - tech
+    - electronics
+    - art
+    - music
+
+
+
+    <li>
+    {{ project.path }}<br/>
+    {{ project.url }}<br/>
+    {{ project.collection }}
+    </li>

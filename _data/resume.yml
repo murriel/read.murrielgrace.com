@@ -2,7 +2,7 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Murriel Grace McCabe"
+  name: "Murriel Grace Perez-McCabe"
   label: "DevOps Engineer"
   picture: "/assets/icons/icon.png"
   email: ""
@@ -30,32 +30,27 @@ work:
     startDate: "2018-09-01"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded  high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Johnson Controls
     highlights:
-      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Career Highlights"
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: "Girls in Tech LA"
+    position: "Volunteer Managing Director"
+    website: "https://www.girlsintech.org"
+    startDate: ""
+    endDate: ""
+    summary: "Mentorship and Community"
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Mentorship Programs"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "University of California, Berkeley"
+    area: "Bachelor of Arts"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+    startDate: ""
+    endDate: ""
+    gpa: ""
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+      - "Course Listing"
 awards:
   - title: "Digital Compression Pioneer Award"
     date: "2014-11-01"

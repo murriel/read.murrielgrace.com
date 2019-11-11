@@ -1,0 +1,10 @@
+---
+layout: base
+title: Collection
+---
+<p>
+  <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
+  {% include components/message.html text=page.description hide=page.hide_description %}
+</p>
+
+{{ content }}
