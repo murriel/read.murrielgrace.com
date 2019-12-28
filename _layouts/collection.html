@@ -1,0 +1,13 @@
+---
+layout: base
+title: Collection
+---
+{% assign image       = site.accent_image | default:'/assets/img/sidebar-bg.jpg' %}
+{% assign color       = site.accent_color | default:'#4fb1ba' %}
+{% assign theme_color = site.theme_color  | default:'#193747' %}
+<p>
+  <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
+  {% include components/message.html text=page.description hide=page.hide_description %}
+</p>
+
+{{ content }}

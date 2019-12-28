@@ -1,0 +1,13 @@
+# podcast list. sample format below. to be populated, maybe add to subfolder.
+the changelog:
+  website: changelog.com
+  year_founded:
+  hosts:
+    - Adam Stackoviak
+    - Jerod Santo
+  categories:
+    - tech
+  frequency: weekly
+  description: News and podcasts for developers
+  avg_episode_length:
+  total_episodes:
