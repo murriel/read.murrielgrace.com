@@ -6,18 +6,16 @@ menu: true
 order: 3
 description: >
   conference and meetup talks
-accent_image:
-  background: rgba(0,0,0,0.85)
-  overlay:    false
 ---
 
 <p>
-  {% for talk in site.talks %}
+  {% assign sorted = (site.talks | sort: 'date') | reverse %}
+  {% for item in sorted %}
     <ul>
       <li>
-         <a href="{{ talk.url | relative_url }}" class="flip-title">
-         <span>{{ talk.title }}</span></a><br/>
-         {{ talk.description }}
+         <a href="{{ item.url | relative_url }}" class="flip-title">
+         <span>{{ item.title }}</span></a><br/>
+         {{ item.description }}
       </li>
     </ul>
     <hr>

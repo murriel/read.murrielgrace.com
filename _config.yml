@@ -98,7 +98,7 @@ defaults:
       accent_color:    rgb(38,139,210)
       accent_image:
         #background:    rgb(32,32,32)
-        background:    rgba(0,0,0,0.75)
+        background:    rgba(0,0,0,0.45)
         overlay:       false
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,

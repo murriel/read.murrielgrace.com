@@ -27,8 +27,6 @@ layout: base
   {% case addon %}
   {% when 'about' %}
      {% include components/about.html %}
-  {% when 'related' %}
-    {% include components/related-posts.html post=post %}
   {% else %}
   {% endcase %}
 {% endfor %}

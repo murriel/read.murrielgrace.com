@@ -6,9 +6,6 @@ menu: true
 order: 4
 description: >
   digital and analog archives from various publications.
-accent_image:
-  background: rgba(0,0,0,0.85)
-  overlay:    false
 ---
 
 <p>
