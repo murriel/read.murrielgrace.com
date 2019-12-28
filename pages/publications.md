@@ -5,7 +5,10 @@ slug: publications
 menu: true
 order: 4
 description: >
-  electronic and analog archives
+  digital and analog archives from various publications.
+accent_image:
+  background: rgba(0,0,0,0.85)
+  overlay:    false
 ---
 
 <p>
@@ -15,11 +18,6 @@ description: >
          <a href="{{ publication.url | relative_url }}" class="flip-title">
          <span>{{ publication.title }}</span></a><br/>
          {{ publication.description }}
-      </li>
-      <li>
-      {{ publication.path }}<br/>
-      {{ publication.url }}<br/>
-      {{ publication.collection }}
       </li>
     </ul>
     <hr>

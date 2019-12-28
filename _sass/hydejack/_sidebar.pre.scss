@@ -125,6 +125,8 @@ hy-drawer.loaded .sidebar {
   max-width: $sidebar-width;
   padding: 1.5rem;
   contain: content;
+  // added below for semi-transparent sidebar background - MP
+  background: rgba(0,0,0,0.75);
 }
 
 .sidebar-about {

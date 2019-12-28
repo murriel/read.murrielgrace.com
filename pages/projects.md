@@ -6,9 +6,8 @@ menu: true
 order: 2
 description: >
   pardon the sawdust, scraps of burnt toast and PLA, dusty typewriter keys, and frayed wires. this is a work in progress.
-accent_color: rgb(38,139,210)
 accent_image:
-  background: rgb(32,32,32)
+  background: rgba(0,0,0,0.85)
   overlay:    false
 ---
 

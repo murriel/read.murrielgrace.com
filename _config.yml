@@ -27,8 +27,9 @@ description:           >
   "Just a friendly neighborhood web log"
 
 # A shorter description for the sidebar.
+#"Writing the wrongs, and reading the writes."
 tagline:               >
-  "Writing the wrongs, and reading the writes."
+  "Shall we go on an adventure?"
 
 # A list of keywords for your blog
 keywords:              []
@@ -46,8 +47,10 @@ author:
   # twitter:             xmurriel
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             >
-  CC BY 2.0 2019. All rights reserved.
+#copyright:             >
+#  CC BY 2.0 2020. All rights reserved.
+copyright:
+
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
 # legal:
@@ -94,7 +97,8 @@ defaults:
     values:
       accent_color:    rgb(38,139,210)
       accent_image:
-        background:    rgb(32,32,32)
+        #background:    rgb(32,32,32)
+        background:    rgba(0,0,0,0.75)
         overlay:       false
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,

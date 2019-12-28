@@ -6,9 +6,8 @@ menu: true
 order: 3
 description: >
   conference and meetup talks
-accent_color: rgb(38,139,210)
 accent_image:
-  background: rgb(32,32,32)
+  background: rgba(0,0,0,0.85)
   overlay:    false
 ---
 

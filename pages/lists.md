@@ -7,7 +7,10 @@ menu: true
 order: 5
 description: >
   ordered and unordered lists, sometimes arrays, with occasional key value pairs or maps thrown in for fun or profit.
-
+accent_image:  
+  image: /assets/img/sidebar-bg.jpg
+  background: rgba(0,0,0,0.85)
+  overlay:    false
 ---
 
 <p>
