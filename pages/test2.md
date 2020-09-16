@@ -9,13 +9,15 @@ description: >
 ---
 
 <p>
-  {% assign sorted = (site.pages | sort: 'date') | reverse %}
+  {% assign sorted = (site.posts | sort: 'date') | reverse %}
   {% for item in sorted %}
     <ul>
       <li>
+         <span>[{{ item.collection }}]</span><br />
          <a href="{{ item.url | relative_url }}" class="flip-title">
          <span>{{ item.title }}</span></a><br/>
-         {{ item.description }}
+         <span>{{ item.description }}
+         {{ item.date }}</span>
       </li>
     </ul>
     <hr>
