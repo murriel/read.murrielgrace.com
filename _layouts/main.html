@@ -1,0 +1,45 @@
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+layout: base
+---
+
+{% assign strings = site.data.strings %}
+
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+
+  <p>
+    {% assign sortedcol = site.documents | sort: 'date' | reverse %}
+    {% for item in sortedcol limit:20 %}
+        <ul>
+          <!-- do a proper li class later-->
+          <li style="margin:0 0 50px 0;">
+          <a href="{{ item.url | relative_url }}" class="h4 flip-title">
+            <span>{{ item.title }}</span></a><br /> 
+          <time class="heading faded fine">
+          {{ item.date | date_to_string }}</time>  
+          <span class="faded fine">[{{ item.collection }}]<br />
+          {{ item.description }}</span>
+          </li>
+        </ul>
+    {% endfor %}
+    </p>
+
+</article>

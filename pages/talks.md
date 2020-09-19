@@ -9,7 +9,7 @@ description: >
 ---
 
 <p>
-  {% assign sorted = (site.talks | sort: 'date') | reverse %}
+  {% assign sorted = site.talks | sort: 'date' | reverse %}
   {% for item in sorted %}
     <ul>
       <li>

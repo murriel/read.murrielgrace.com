@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cpage
 title: comics about tech!
 categories: [list,tech,art]
 description: an incomplete, biased, and unordered list of comics about tech
