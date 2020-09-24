@@ -1,0 +1,1 @@
+congrats if you are here! this is the unpublished but not completely deleted archive of Things Written that I didn't want to include in the official site. 

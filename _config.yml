@@ -238,13 +238,13 @@ hydejack:
 collections_dir: c
 
 collections:
-  featured_categories:
-    permalink:         /:name/
-    output:            true
+  # featured_categories:
+  #   permalink:         /:name/
+  #   output:            true
 
-  featured_tags:
-    permalink:         /tag-:name/
-    output:            true
+  # featured_tags:
+  #   permalink:         /tag-:name/
+  #   output:            true
 
   lists:
     permalink:         /lists/:path/

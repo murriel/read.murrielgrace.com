@@ -9,13 +9,16 @@ description: >
 ---
 
 <p>
-  {% assign sorted = (site.talks | sort: 'date') | reverse %}
+  {% assign sorted = site.talks | sort: 'date' | reverse %}
   {% for item in sorted %}
     <ul>
-      <li>
-         <a href="{{ item.url | relative_url }}" class="flip-title">
-         <span>{{ item.title }}</span></a><br/>
-         {{ item.description }}
+      <!-- do a proper li class later-->
+      <li style="margin:0 0 50px 0;">
+        <span><a href="{{ item.url | relative_url }}" class="h2 flip-title">
+        {{ item.title }}</a><br /><br /></span>
+        <time class="heading faded fine minicap">
+        {{ item.date | date_to_string }}</time><br />  
+        <span class="faded fine">{{ item.excerpt }}</span>
       </li>
     </ul>
     <hr>

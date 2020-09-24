@@ -20,3 +20,11 @@ description: >
     <hr>
   {% endfor %}
   </p>
+
+
+<!-- TEMPORARY  -->
+<span class="h2">
+  <a href="https://www.murrielgrace.com/m/" target="_blank">Work Projects</a>
+  <br /><br />
+  <a href="{{ site.url }}/pages/now">Now List</a>
+</span>

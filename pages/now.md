@@ -8,14 +8,14 @@ This is my 'now' page, based on the [https://www.nownownow.com](https://www.nown
 
 For the next few weeks, this page is going to be heavily under revision pursuant to annual goal setting requirements, existential panic, performance reviews, and distraction by all things shiny.
 <hr>
-- **Coding:** Continued progress with Python and C.
-- **Staying Healthy:** Hot Yoga - Running - Less Sugar
+- **Coding:** Continued progress with Python and C. (ask me about my study group!)
+- **Staying Healthy:** Biking - Yoga - Running - Less Sugar
 - **Personal:** spending time with [@SeanLeftBelow](https://www.twitter.com/seanleftbelow) & Orion the Cat
 - **Making:**  always
 - **Highly Interested in:** Demoscene, codes and ciphers, transmedia storytelling, conductive art, Open Data
 - **Now Watching:** Mr. Robot
-- **Listening:** Still Corners, Synthwave/Vaporwave, lots of [SomaFM](https://somafm.com/)
-- **Work + Tech:** Information Security, Kubernetes, Elasticsearch, Ansible, Terraform, Jenkins
+- **Listening:** GUNSHIP, Still Corners, Synthwave/Vaporwave, lots of [SomaFM](https://somafm.com/)
+- **Work + Tech:** Google Cloud, Information Security, Kubernetes, Elasticsearch, Ansible, Terraform, Jenkins
 
 **Community:**
 - [https://longbeachcraftday.com](https://longbeachcraftday.com)
@@ -30,4 +30,4 @@ For the next few weeks, this page is going to be heavily under revision pursuant
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff/)
 - [Python For Kids](https://nostarch.com/pythonforkids)
 
-_Last Updated: 2019-12-27_
+_Last Updated: 2020-09-23 (Reading List not yet updated)_
