@@ -9,8 +9,7 @@ description: >
 ---
 
 <p>
-  {% assign sorted = site.talks | sort: 'date' | reverse %}
-  {% for item in sorted %}
+  {% for talk in site.talks %}
     <ul>
       <!-- do a proper li class later-->
       <li style="margin:0 0 50px 0;">
