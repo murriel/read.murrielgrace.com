@@ -30,8 +30,7 @@ layout: base
   <hr>
 
   <p>
-    {% assign sortedcol = site.documents | sort: 'date' | reverse %}
-    {% for item in sortedcol limit:20 %}
+    {% for item in site.documents limit:20 %}
         <ul>
           <!-- do a proper li class later-->
           <li style="margin:0 0 50px 0;">
@@ -58,3 +57,4 @@ layout: base
 
   - T.S. Eliot
                           -->
+
