@@ -17,9 +17,9 @@ description: >
   {% for list in site.lists %}
     <ul>
       <li>
-         <a href="{{ list.url | relative_url }}" class="flip-title">
-         <span>{{ list.title }}</span></a><br/>
-         {{ list.description }}
+         <span><a href="{{ list.url | relative_url }}" class="h2 flip-title">
+         {{ list.title }}</a><br/><br /></span>
+         <span class="faded fine">{{ list.description }}</span>
       </li>
     </ul>
     <hr>

@@ -12,9 +12,9 @@ description: >
   {% for publication in site.publications %}
     <ul>
       <li>
-         <a href="{{ publication.url | relative_url }}" class="flip-title">
-         <span>{{ publication.title }}</span></a><br/>
-         {{ publication.description }}
+         <span><a href="{{ publication.url | relative_url }}" class="h2 flip-title">
+         {{ publication.title }}</a><br/><br /></span>
+         <span class="faded fine">{{ publication.description }}</span>
       </li>
     </ul>
     <hr>

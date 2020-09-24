@@ -1,10 +1,10 @@
 ---
 title: Posts
-layout: post
+layout: collection
 menu: true
 order: 1
 description: >
-  projects, thoughts, errata, and addendums.
+  reflections, notes about technology, errata, addendums.
 ---
 
 <p>
@@ -12,7 +12,9 @@ description: >
   {% for item in sorted %}
     <ul>
       <li>
-         <span><a href="{{ item.url | relative_url }}" class="flip-title">{{ item.title }}</a><br/><br /></span>
+         <span><a href="{{ item.url | relative_url }}" class="h2 flip-title">{{ item.title }}</a><br/><br /></span>
+         <time class="heading faded fine minicap">
+          {{ item.date | date_to_string }}</time>  
          <span class="faded fine">{{ item.excerpt }}</span>
          <span><a href="{{ item.url | relative_url }}" class="faded fine">more >></a></span>
       </li>
