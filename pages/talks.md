@@ -9,7 +9,7 @@ description: >
 ---
 
 <p>
-  {% for talk in site.talks %}
+  {% for talk in site.talks | reverse %}
     <ul>
       <li style="margin:0 0 50px 0;">
         <span><a href="{{ talk.url | relative_url }}" class="h2 flip-title">
