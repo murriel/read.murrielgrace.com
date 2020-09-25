@@ -30,16 +30,15 @@ layout: base
   <hr>
 
   <p>
-    {% for item in site.documents limit:20 %}
+    {% for item in site.documents %}
         <ul>
-          <!-- do a proper li class later-->
           <li style="margin:0 0 50px 0;">
           <a href="{{ item.url | relative_url }}" class="h2 flip-title">  
             <span>{{ item.title }}</span></a><br /><br /> 
           <time class="heading faded fine minicap">
           {{ item.date | date_to_string }}</time>  
           <span class="heading faded fine minicap">[{{ item.collection }}]<br /></span>
-          <span class="faded fine">{{ item.description }}</span>
+          <span class="faded fine">{{ item.description }}</span></j
           </li>
         </ul>
     {% endfor %}
