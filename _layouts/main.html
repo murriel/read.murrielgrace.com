@@ -30,7 +30,8 @@ layout: base
   <hr>
 
   <p>
-    {% assign sorted = pages | sort:"date" | reverse %}
+
+    {% assign sorted = site.pages | sort: "date" | reverse %}
     {% for item in sorted %}
         <ul>
           <li style="margin:0 0 50px 0;">
@@ -56,5 +57,5 @@ layout: base
   Sensa tema d’infamia ti rispondo.
 
   - T.S. Eliot
-                          -->
+-->
 
