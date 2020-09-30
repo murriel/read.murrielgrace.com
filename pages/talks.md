@@ -17,7 +17,7 @@ description: >
         {{ talk.title }}</a><br /><br /></span>
         <time class="heading faded fine minicap">
         {{ talk.date | date_to_string }}</time><br />  
-        <span class="faded fine">{{ talk.excerpt }}</span>
+        <span class="faded fine">{{ talk.description }}</span>
       </li>
     </ul>
     <hr>

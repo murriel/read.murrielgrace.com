@@ -1,13 +1,13 @@
 ---
 layout: post
-title: journey to devops | a story in two acts
+title: Journey to Devops
 description: >
-  journey to devops
+  journey to devops - a story in two acts
 ---
 Lightning talk and panel discussion with LevelUp LA for the event: <b>Women in DevOps - Presented by LA DevOps and Code</b>
 
 # Recap
-<a href="https://levelupla.io/recap-women-in-devops-virtual-meetup">https://levelupla.io/recap-women-in-devops-virtual-meetup</a> 
+<a href="https://levelupla.io/recap-women-in-devops-virtual-meetup" target="_blank">https://levelupla.io/recap-women-in-devops-virtual-meetup</a> 
 
 # Slides
 <div class="responsive-google-slides">
