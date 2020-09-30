@@ -16,7 +16,4 @@ While I am still trying to navigate the answers to these questions, I can talk a
 
 # Slides 
 
- <iframe frameborder="0" scrolling="no"
-     width="640" height="480"
-     src="https://drive.google.com/file/d/1lMxpq1wrWD3VUeV7W6u1HelKtRC9Hvqh/view">
-  </iframe>
+<iframe src="https://drive.google.com/file/d/1lMxpq1wrWD3VUeV7W6u1HelKtRC9Hvqh/preview" width="640" height="480"></iframe>
