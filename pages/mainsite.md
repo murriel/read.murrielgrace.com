@@ -1,6 +1,6 @@
 ---
-title: About
-redirect_to: https://www.murrielgrace.com
+title: weblog
+redirect_to: index.html
 menu: true
-order: 6
+order: 1
 ---
