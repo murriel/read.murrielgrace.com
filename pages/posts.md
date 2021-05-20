@@ -1,8 +1,6 @@
 ---
 title: Posts
 layout: collection
-menu: true
-order: 1
 description: >
   reflections, notes about technology, errata, addendums.
 ---
