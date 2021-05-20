@@ -138,11 +138,7 @@ defaults:
     values:
       menu: true
       order: 4
-  - scope:
-        path: posts
-      values:
-        menu: true
-        order: 5
+
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
