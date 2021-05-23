@@ -6,8 +6,6 @@ categories: [self]
 
 This is my 'now' page, based on the [https://www.nownownow.com](https://www.nownownow.com) project.
 
-<!-- For the next few weeks, this page is going to be heavily under revision pursuant to annual goal setting requirements, existential panic, performance reviews, and distraction by all things shiny.-->
-
 <hr>
 - **Coding:** Continued progress with Python and C. (ask me about my study group!)
 - **Staying Healthy:** Biking - Yoga - Running - Less Sugar
@@ -27,7 +25,6 @@ This is my 'now' page, based on the [https://www.nownownow.com](https://www.nown
 - <u>Slouching Toward Bethlehem</u>, Joan Didion.
 - <u>Women Who Run With The Wolves</u>.
 - <u>1984</u>, George Orwell
-- <u>Inherent Vice</u>, Thomas Pynchon.
 - Getting Started in Electronics: Forrest M. Mims III
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff/)
 - [Python For Kids](https://nostarch.com/pythonforkids)
