@@ -1,6 +1,6 @@
 ---
-title: weblog
-redirect_to: index.html
+title: Weblog
+layout: main
 menu: true
 order: 1
 ---
