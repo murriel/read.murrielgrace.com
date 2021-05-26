@@ -1,6 +1,6 @@
 ---
 title: Weblog
-layout: main
+layout: weblog
 menu: true
 order: 1
 ---
