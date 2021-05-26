@@ -1,0 +1,64 @@
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+layout: base
+---
+
+{% assign strings = site.data.strings %}
+{% assign image       = site.accent_image | default:'/assets/img/sidebar-bg.jpg' %}
+{% assign color       = site.accent_color | default:'#4fb1ba' %}
+{% assign theme_color = site.theme_color  | default:'#193747' %}
+
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+
+  <span class="vote-highlight">"Forty-two," said Deep Thought, <br />with infinite majesty and calm. -HG2G</span>
+  <hr>
+
+  <p>
+    {% for item in site.documents %}
+        <ul>
+          <!-- do a proper li class later-->
+          <li>
+          <a href="{{ item.url | relative_url }}" class="h2 flip-title">  
+            <span>{{ item.title }}</span></a><br /><br /> 
+          <time class="heading faded fine minicap">
+          {{ item.date | date_to_string }}</time>  
+          <span class="heading faded fine minicap">[{{ item.collection }}]<br /></span>
+          <span class="faded fine">{{ item.description }}</span>
+          </li>
+        </ul>
+    {% endfor %}
+    </p>
+
+</article>
+
+<!--                 
+  S’io credesse che mia risposta fosse
+  A persona che mai tornasse al mondo
+  Questa fiamma staria sensa piu scosse.
+  Ma perciocche giammai di questo fondo
+  Non torno vivo alcun, s’i’odo il vero
+  Sensa tema d’infamia ti rispondo.
+
+  - T.S. Eliot
+-->
+
+<!-- there is a better way to deal with the front page linking 
+ figure this out later. mpm -->
