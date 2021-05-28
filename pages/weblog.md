@@ -9,9 +9,9 @@ order: 1
  {% for item in site.documents %}
         <ul>
           <!-- do a proper li class later-->
-          <li>
-          <a href="{{ item.url | relative_url }}" class="h2 flip-title">  
-            <span>{{ item.title }}</span></a><br /><br /> 
+          <li> 
+          <span><a href="{{ item.url | relative_url }}" class="h2 flip-title">  
+           {{ item.title }}</span></a><br /><br /> 
           <time class="heading faded fine minicap">
           {{ item.date | date_to_string }}</time>  
           <span class="heading faded fine minicap">[{{ item.collection }}]<br /></span>
