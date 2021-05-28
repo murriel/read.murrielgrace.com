@@ -2,10 +2,10 @@
 title: Weblog
 layout: collection
 menu: true
-order: 1
+order: 7
 ---
 <!-- unintended behaviors ? --> 
-<p>
+<p>test
  {% for item in site.documents %}
         <ul>
           <!-- do a proper li class later-->
