@@ -1,6 +1,6 @@
 ---
 title: Weblog
-layout: weblog
+layout: collection
 menu: true
 order: 1
 ---
@@ -16,7 +16,7 @@ order: 1
           {{ item.date | date_to_string }}</time>  
           <span class="heading faded fine minicap">[{{ item.collection }}]<br /></span>
           <span class="faded fine">{{ item.description }}</span>
-          </li>
+          </li>git 
         </ul>
     {% endfor %}
 </p>
