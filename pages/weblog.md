@@ -5,7 +5,7 @@ menu: true
 order: 7
 ---
 <!-- unintended behaviors ? --> 
-<p>test
+
  {% for item in site.collections %}
         <ul>
           <!-- do a proper li class later-->
@@ -19,4 +19,4 @@ order: 7
           </li>git 
         </ul>
     {% endfor %}
-</p>
+
