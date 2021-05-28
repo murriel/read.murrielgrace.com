@@ -5,7 +5,7 @@ menu: true
 order: 1
 ---
 <!-- unintended behaviors ? --> 
-
+<p>
  {% for item in site.documents %}
         <ul>
           <!-- do a proper li class later-->
