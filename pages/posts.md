@@ -3,6 +3,8 @@ title: Posts
 layout: collection
 description: >
   reflections, notes about technology, errata, addendums.
+menu: true
+order: 1
 ---
 
 <p>
