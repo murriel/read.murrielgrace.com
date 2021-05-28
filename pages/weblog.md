@@ -6,7 +6,7 @@ order: 7
 ---
 <!-- unintended behaviors ? --> 
 <p>test
- {% for item in site.documents %}
+ {% for item in site.collections %}
         <ul>
           <!-- do a proper li class later-->
           <li> 
