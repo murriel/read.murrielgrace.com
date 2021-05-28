@@ -5,14 +5,17 @@ menu: true
 order: 7
 ---
 <!-- unintended behaviors? --> 
-test 0528.02 change spans etc 
+test 0528.03 missing closing p tag
 
 {% for item in site.collections %}
-  <ul><li>
-         
- <p>minitest<span><a href="{{ item.url | relative_url }}" class="h2 flip-title">  
-           {{ item.title }}</a><br /><br /> </span>
-  </li></ul>
+  <p>
+    minitest
+    <span>
+       <a href="{{ item.url | relative_url }}" class="h2 flip-title">  
+           {{ item.title }}</a>
+    </span>
+  </p>
+  
    {% endfor %}
 
 
