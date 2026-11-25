@@ -1,0 +1,27 @@
+name: Jekyll Build Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby 3.3 and Bundler cache
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Verify production Jekyll build & custom SCSS
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
