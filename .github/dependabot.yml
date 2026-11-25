@@ -8,3 +8,9 @@ updates:
       ruby-dependencies:
         patterns:
           - "*"
+    # Keep Jekyll 3.x / Sass converter 1.x aligned with GitHub Pages runtime
+    ignore:
+      - dependency-name: "jekyll"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "jekyll-sass-converter"
+        update-types: ["version-update:semver-major"]
