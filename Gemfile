@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 # Pin Jekyll 3.10 + Sass converter 1.5 for 100% parity with GitHub Pages
 # and compatibility with Hydejack 8 SCSS syntax
-gem "jekyll", "~> 3.10"
-gem "jekyll-sass-converter", "~> 1.5"
+gem "jekyll", "~> 4.4"
+gem "jekyll-sass-converter", "~> 3.1"
 
 # Ruby 3.x stdlib gems used by Jekyll local server
 gem "webrick", ">= 1.9.1"
