@@ -2,19 +2,12 @@ name: Jekyll Build Check
 
 on:
   push:
-    branches: [main, chore/modernize-dependencies]
+    branches: [main]
   pull_request:
     branches: [main]
-  workflow_dispatch:
-    inputs:
-      update_lockfile:
-        description: "Regenerate Gemfile.lock with latest compatible gems"
-        required: false
-        default: "false"
-        type: boolean
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   build:
@@ -22,31 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Ruby 3.3
+      - name: Set up Ruby 3.3 and Bundler cache
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
-          bundler-cache: false
-
-      - name: Resolve and install dependencies
-        run: |
-          if [ "${{ github.ref_name }}" = "chore/modernize-dependencies" ] && ! grep -q "RUBY VERSION" Gemfile.lock; then
-            bundle lock --update --add-platform x86_64-linux --add-platform arm64-darwin-23 --add-platform ruby
-          fi
-          bundle install --jobs 4 --retry 3
+          bundler-cache: true
 
       - name: Verify production Jekyll build & custom SCSS
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --trace
-
-      - name: Commit refreshed Gemfile.lock on modernization branch
-        if: github.ref_name == 'chore/modernize-dependencies'
-        run: |
-          if ! git diff --quiet Gemfile.lock; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add Gemfile.lock
-            git commit -m "chore(deps): regenerate Gemfile.lock on Ruby 3.3"
-            git push
-          fi
