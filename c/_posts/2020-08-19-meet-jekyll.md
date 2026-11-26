@@ -3,6 +3,9 @@ layout: post
 title: some jekyll basics 
 description: >
   how does this thing work again?
+redirect_from:
+  - /tech/2017/02/15/jekyll-now.html
+  - /tech/2017/02/15/jekyll-now/
 ---
 
 This is a mini shortcut and reference guide on using Jekyll on GitHub Pages as a blogging platform. The page is a work in progress, and to be perfectly honest, is mostly here so that I remember how to update my site.
